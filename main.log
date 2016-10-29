@@ -1,10 +1,11 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2016.10.13)  28 OCT 2016 21:22
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2016.10.13)  28 OCT 2016 22:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **main.tex fixos/informacoes.tex fixos/novosComandos.tex fixos/pacotes.tex fixo
 s/setup.tex fixos/listasAutomaticas.tex fixos/indiceAutomatico.tex editaveis/in
-formacoes.tex editaveis/introducao.tex
+formacoes.tex editaveis/introducao.tex editaveis/processo.tex editaveis/gerenci
+a.tex editaveis/conclusao.tex editaveis/visao.tex
 (./main.tex
 LaTeX2e <2011/06/27>
 Babel <3.9h> and hyphenation patterns for 78 languages loaded.
@@ -1046,12 +1047,32 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 ]) (./fixos/indiceAutomatico.tex (./main.toc)
 [4
 
-]) (./editaveis/introducao.tex) (./main.bbl (./main.brf)
+]) (./editaveis/introducao.tex) (./editaveis/visao.tex [5
+
+
+])
+(./editaveis/processo.tex [6
+
+]
+File: figuras/processo/processo.eps Graphic file (type eps)
+ <figuras/processo/processo.eps>
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 22.
+
+(/usr/share/texmf/tex/latex/lm/omslmr.fd
+File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 22.
+ [7
+
+] [8]) (./editaveis/gerencia.tex
+[9]) (./editaveis/conclusao.tex [10
+
+]) (./main.bbl (./main.brf)
 \tf@brf=\write5
 \openout5 = `main.brf'.
 
- [5
-
+ [11
 
 ]
 bibitemlist
@@ -1060,7 +1081,7 @@ LaTeX Warning: Empty `thebibliography' environment on input line 8.
 
 ) 
 AED: lastpage setting LastPage
-[6
+[12
 
 ]
 \tf@lof=\write6
@@ -1072,25 +1093,25 @@ AED: lastpage setting LastPage
 \tf@toc=\write8
 \openout8 = `main.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 24.
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 24.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 28.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 28.
 \BKM@file=\write9
 \openout9 = `main.out.ps'.
 
  (./main.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 24.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 24.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 28.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 28.
 Package rerunfilecheck Info: File `main.brf' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 24.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 28.
  ) 
 Here is how much of TeX's memory you used:
- 11470 strings out of 493305
- 166366 string characters out of 6139896
- 291145 words of memory out of 5000000
- 14722 multiletter control sequences out of 15000+600000
- 47672 words of font info for 38 fonts, out of 8000000 for 9000
+ 11538 strings out of 493305
+ 167387 string characters out of 6139896
+ 293145 words of memory out of 5000000
+ 14773 multiletter control sequences out of 15000+600000
+ 57492 words of font info for 41 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 44i,12n,51p,419b,446s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,12n,51p,533b,446s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (7 pages, 13576 bytes).
+Output written on main.dvi (13 pages, 30668 bytes).
