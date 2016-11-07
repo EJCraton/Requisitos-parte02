@@ -1,2 +1,274 @@
 \chapter{Visão do projeto}
 
+  \label{visao}
+
+\section{Finalidade}
+
+  Este capítulo apresenta os principais fatores que descreve as necessidades em relação a construção da plataforma de sistema online de
+  armazenamento de arquivos da própria empresa junior Cráton através de um banco de dados.
+
+\section{Problema}
+
+  A Cráton é uma empresa júnior recente e formada por estudantes do curso de geologia da Universidade de Brasília que atualmente tem 15 membros.
+  A empresa tem o objetivo de prestar serviços geológicos, sendo que os atuais produtos são de geoprocessamento e geologia de prospecção.
+  Futuramente a Cráton pretende expandir a variedade de seus produtos abrangendo as áreas de espeleologia, geologia ambiental e geoturismo. Com
+  isso a Cráton tem como um dentre vários problemas não ter um sistema online de armazenamento da própria empresa na qual hoje eles utilizam do
+  google driver para fazer esse armazenamento e como o google driver tem um espaço de armazenamento limitado e alguns arquivos que a empresa
+  precisa guardar são de tamanhos variados chegando até a ocupar GB de memória, o espaço do google driver para esse armazenamento se tornou um
+  desafio para a empresa.
+
+\subsection{Abordagem do problema}
+
+\subsubsection{Tema de investimento}
+
+  A partir das reuniões realizadas com a presidente da empresa, o Tema de investimento definido foi o armazenamento adequado de produtos. A
+  proposta do banco de dados irá resolver o problema do “pequeno” limite de armazenamento do Google Drive, na qual não irá ter que usar uma
+  conta compartilhada entre os membros, evitando o compartilhamento de itens pessoais e evitar ainda mais o constante uso do software Arcgis que
+  prover as imagens.
+
+\subsubsection{Diagrama de causa e efeito}
+
+  Também conhecido como Fishbone é uma eficiente maneira de segmentação e compreensão de um problema, fornecendo um mecanismo recursivo para
+  dividi-lo em problemas menores até que as causas raízes, ou seja, os problemas-chave que geraram os demais sejam identificados.
+
+  Imagem do fishbone se encontra no anexo \ref{fishbone}
+
+\subsubsection{Formulação do problema}
+
+  \begin{table}[!htb]
+    \centering
+    \rowcolors{2}{gray!25}{white}
+    \begin{tabular}{p{5cm}p{8cm}} \hline
+      \rowcolor{gray!50}
+      \multicolumn{2}{c}{Formulação} \\ \hline
+      \textbf{O problema é}           & A empresa não ter um sistema online de armazenamento na qual hoje eles utilizam do google driver
+                                        para fazer esse armazenamento e como o google driver tem um espaço de armazenamento limitado e
+                                        alguns arquivos que a empresa precisa guardar são de tamanhos variados chegando até a ocupar GB
+                                        de memória, o espaço do google driver para esse armazenamento se tornou um desafio para a empresa   \\
+      \textbf{Afeta}                  & A empresa júnior                                                                                    \\
+      \textbf{Cujo impacto é}         & Prejuízos em relação a organização de arquivos da empresa, podendo perder-los, ou até mesmo tendo
+                                        que apagar alguns arquivos para armazenar outros, assim perdendo informações que podia ser útil no
+                                        futuro.                                                                                             \\
+      \textbf{Uma boa solução seria}  & Um módulo de software que fosse responsável por armazenar esses arquivos de maneira segura e tendo
+                                        um limite muito superior ao que eles tem hoje. Tendo um sistema de login para cada membro, evitando
+                                        assim o compartilhamento de dados pessoais.
+    \end{tabular}
+    \caption{Formulação do problema}
+  \end{table}
+
+\subsubsection{Sentença de Posição do produto}
+
+  \begin{table}[!htb]
+    \centering
+    \rowcolors{2}{gray!25}{white}
+    \begin{tabular}{p{5cm}p{8cm}} \hline
+      \rowcolor{gray!50}
+      \multicolumn{2}{c}{Produto}                                                                                                       \\ \hline
+      \textbf{Para}           & Empresa Junior Cráton                                                                                   \\
+      \textbf{Que}            & Necessita de um espaço de armazenamento grande o suficiente para inserir todos os seus arquivos.        \\
+      \textbf{O}              & GeoBD                                                                                                   \\
+      \textbf{É um}           & É um banco de dados                                                                                     \\
+      \textbf{Que}            & Armazena arquivos dos diferentes formatos                                                               \\
+      \textbf{Diferente de}   & Outras aplicações como Google Driver, Drop Box                                                          \\
+      \textbf{Nosso produto}  & Terá segurança dos dados, sistema de login, espaço de armazenamento suficiente para qualquer tipo de dado
+    \end{tabular}
+    \caption{Sentença de posição do produto}
+  \end{table}
+
+\subsection{Escopo}
+
+  O escopo do projeto é de certa forma pequeno, principalmente devido ao tempo para realização do produto e também de a empresa ser jovem, logo
+  eles não tem uma ideia muito bem estruturada e definida. Como um dentre vários problemas da Cráton é não ter um sistema online de armazenamento
+  da própria empresa, através das negociações chegamos na conclusão de que um Banco de Dados da Cráton seria a melhor solução para resolver um
+  dos seus principais problemas, melhorar o gerenciamento de arquivos da empresa.
+
+  Todos os membros da empresa geram diversos arquivos de diversos tamanhos, atualmente o gerenciamento se dá através da utilização do
+  repositório do Google Drive, que eventualmente eles atingirão o espaço máximo de armazenamento.
+
+\section{Descrição dos envolvidos e dos usuários}
+
+\subsection{Resumo dos usuários}
+
+  \begin{table}[!htb]
+    \centering
+    \rowcolors{2}{gray!25}{white}
+    \begin{tabular}{p{3,5cm}p{6cm}p{6cm}} \hline
+      \rowcolor{gray!50}
+        \textbf{Nome}           & \textbf{Descrição} & \textbf{Responsabilidade}                                                          \\
+      \hline
+        Gerentes de Projetos    & Membros da empresa responsáveis por gerenciar cada
+                                  um dos projetos e arquivos.                         & Recebem as solicitações, pedidos de orçamento,
+                                                                                        dúvidas sobre os projetos. Acompanham prazos e
+                                                                                        avaliam riscos de acordo com as metas e recursos
+                                                                                        da empresa                                        \\
+        Funcionarios da Cráton  & Membros da empresa que desejam armazenar arquivos
+                                  de forma segura e eficiente.                        & Cada membro tem suas respectivas responsabilidades
+                                                                                        e geram arquivos diferentes para armazenamento.
+    \end{tabular}
+    \caption{Usuários}
+  \end{table}
+
+\subsection{Resumo dos stakeholders}
+
+  Os envolvidos no projeto são aqueles personagens que serão diretamente afetados e contribuirão diretamente para a tomada de decisões que
+  levarão a concepção e a construção do software. Podem não ser considerados os usuários diretos da ferramenta, porém terão papéis bem definidos
+  no processo de desenvolvimento do componente.
+
+  A abordagem ágil fornece uma série de papéis e responsabilidades que podem ser adaptadas ao contexto do projeto. Levando em consideração as
+  discussões apresentadas durante a escolha da metodologia na fase de modelagem do processo, a Tabela abaixo descreve a lista de envolvidos no
+  projeto.
+
+  \begin{table}[!htb]
+    \centering
+    \rowcolors{2}{gray!25}{white}
+    \begin{tabular}{p{3,5cm}p{6cm}p{6cm}} \hline
+      \rowcolor{gray!50}
+        \textbf{Nome}                    & \textbf{Descrição}                               & \textbf{Responsabilidade}                     \\
+      \hline
+        Gerente de Portfólio de Programa & Representa a pessoa que tem mais impacto
+                                           nas decisões tantos estratégicas quanto
+                                           financeiras dentro do framework, e entende
+                                           os limites da estratégia de negócio da empresa,
+                                           de tecnologia e de fundos.                       & Uma de suas responsabilidades é de
+                                                                                              participar das sessões de escolha e
+                                                                                              comunicação dos temas de investimento
+                                                                                              e da definição e priorização do backlog
+                                                                                              de épicos                                     \\
+        Gerente de Épicos                & Representa o papel na qual toma-se a
+                                           responsabilidade de gerenciar épicos individuais
+                                           por todo o processo de portifolio kanban,
+                                           desenvolvendo casos de negócios.                 & Trabalha-se com os principais stakeholders
+                                                                                              na análise de valor agregado do épico.
+                                                                                              Quando o épico é aprovado, o gerente de
+                                                                                              épico trabalha com o time de desenvolvimento
+                                                                                              e o gerente de produto para estabelecer as
+                                                                                              atividades de desenvolvimento, para que as
+                                                                                              mesmas atinjam os benefícios de negócios do
+                                                                                              épico em específico.                          \\
+        Arquiteto da empresa             & Representa a pessoa que sempre visa manter uma
+                                           visão geral das tecnologias, soluções da empresa
+                                           e iniciativas de desenvolvimento.                & Uma de suas atividades é entender e comunicar
+                                                                                              os temas de investimento e outras chaves de
+                                                                                              negócios para os arquitetos de sistema e
+                                                                                              stakeholders não técnicos, e também
+                                                                                              influenciar na decisão de uma modelagem comum
+                                                                                              e em boas práticas de codificação.            \\
+    \end{tabular}
+    \caption{Stakeholders em nível de portifolio}
+  \end{table}
+
+  \begin{table}[!htb]
+    \centering
+    \rowcolors{2}{gray!25}{white}
+    \begin{tabular}{p{3,5cm}p{6cm}p{6cm}} \hline
+      \rowcolor{gray!50}
+        \textbf{Nome}                    & \textbf{Descrição}                               & \textbf{Responsabilidade}                     \\
+      \hline
+        Gerente de Releases              & Representa a pessoa que planeja a release, e
+                                           coordena a implementação de todas as capacidades
+                                           e funcionalidades nas diversas iterações dentro
+                                           de uma release.                                  & Um de seus papéis é comunicar o status da
+                                                                                              release para stakeholders externos a empresa,
+                                                                                              e também de prover uma autorização final da
+                                                                                              release.                                      \\
+        Gerente de Produto               & Junto do Gerente de Soluções, eles formam as
+                                           principais autoridades de conteúdo.              & Eles criam a visão do programa, trabalham
+                                                                                              com os clientes e também com os Product Owner
+                                                                                              para entenderem e comunicarem as necessidades,
+                                                                                              participam na validação de soluções propostas,
+                                                                                              define os requisitos, gerencia e prioriza o
+                                                                                              fluxo de trabalho e também define releases e
+                                                                                              Program Increments.                           \\
+    \end{tabular}
+    \caption{Stakeholders em nível de programa}
+  \end{table}
+
+  \begin{table}[!htb]
+    \centering
+    \rowcolors{2}{gray!25}{white}
+    \begin{tabular}{p{3,5cm}p{6cm}p{6cm}} \hline
+      \rowcolor{gray!50}
+        \textbf{Nome}                    & \textbf{Descrição}                               & \textbf{Responsabilidade}                     \\
+      \hline
+        Product Owner (P.O)              & Representa a pessoa que tem como responsabilidade
+                                           a definição das histórias de usuário e de
+                                           priorizar o backlog de time.                     & O P.O desempenha um papel importantíssimo no
+                                                                                              quesito qualidade, pois é o único do time que
+                                                                                              tem a responsabilidade de aceitar as histórias
+                                                                                              como finalizadas. É bastante envolvido na
+                                                                                              construção do backlog do programa e na
+                                                                                              preparação e refinamento                      \\
+        Scrum Master                     & Representa a pessoa que está sempre monitorando
+                                           a equipe com o intuito de fazer com que todos
+                                           sigam a metodologia, ou seja, o Scrum Master
+                                           monitora os integrantes para que todos cumpram
+                                           e sigam os princípios da metodologia do
+                                           planejamento do PI.                              & Uma das responsabilidades do Scrum Master é
+                                                                                              manter a equipe focada nos objetivos certos,
+                                                                                              assegurando um fluxo de produtividade o mais
+                                                                                              alto possível. Também tem como
+                                                                                              responsabilidade facilitar os encontros do
+                                                                                              time, tanto no planejamento quanto na
+                                                                                              retrospectiva e revisão da sprint.            \\
+        Desenvolvedores                  & Representa as pessoas que vão de fato construir
+                                           o sistema, produzindo o código fonte e os testes
+                                           da aplicação.                                    & Participa de todas as atividades do processo
+                                                                                              no nível de time.                             \\
+        Equipe                           & Representa a junção dos três citados acima       & Participa de todas as atividades do processo
+                                                                                              no nível de time.
+    \end{tabular}
+    \caption{Stakeholders nível de time}
+  \end{table}
+
+\subsection{Principais Necessidades dos Usuários}
+
+  O componente de software deve ser projetado sobre as principais necessidades dos usuários, levantadas utilizando técnicas como Brainstorming,
+  diagrama Fishbone e reuniões com o cliente. A seguir estão listadas as principais necessidades dos clientes:
+
+  \begin{itemize}
+    \item Falta um espaço de armazenamento de arquivos de forma segura, organizada e eficiente.
+    \item Esse espaço de armazenamento não pode haver um compartilhamento de arquivos ou dados pessoais.
+    \item Espaço de armazenamento com interface de fácil acesso e com boa usabilidade.
+    \item Cada usuário da empresa tem que ter uma conta particular para acesso do banco de dados.
+    \item Espaço de armazenamento suficiente para guardar arquivos pesados de imagens de satélites.
+  \end{itemize}
+
+\subsection{Alternativas e Concorrência}
+
+  Diversas empresas possuem softwares internos que lidam com o gerenciamento e armazenamento de arquivos. Entretanto, o desenvolvimento dessas
+  ferramentas é demasiadamente caro para os padrões de uma Empresa Júnior. Sendo assim, a empresa utiliza o Google Drive para o armazenamento de
+  seus arquivos, pois é uma ferramenta que está dentro do orçamentários da empresa pelo fato dela ser de graça. Contudo, essa ferramenta não
+  solucionou o problema, tendo que o espaço de armazenamento já está no limite.
+
+\section{Perspectiva do Produto}
+
+  Esta Seção apresenta uma ideia resumida do que será a solução. Para a elaboração de tal foram levadas em consideração principalmente as
+  necessidades e os objetivos da empresa, as prioridades apresentadas pelo cliente, os recursos financeiros disponíveis, o tempo para se
+  produzir o software e as limitações.
+
+\subsection{Descrição da Solução e Recursos do produto}
+
+  A proposta da solução é para resolver o problema do “pequeno” limite de armazenamento do Google Drive, não precisar ter que usar uma conta
+  compartilhada entre os membros, evitando o compartilhamento de itens pessoais e evitar ainda mais o constante uso do software Arcgis que
+  prover as imagens.
+
+\subsection{Recursos do produto}
+
+  Logo a solução possuirá algumas características principais:
+
+  \begin{itemize}
+    \item Sistema de login de cada membro;
+    \item Possibilidade de guardar qualquer tipo de arquivo gerado do software que a empresa utiliza para gerar as imagens e shapes, Arcgis;
+    \item Mais segurança de seus produtos que serão salvos no banco;
+    \item Armazenamento maior para que eles não tenham receio de guardar imagens de satélites.
+  \end{itemize}
+
+\section{Restrições do Projeto}
+
+  \begin{itemize}
+    \item Há limitação de recursos computacionais, já que a empresa terá que lidar com o empenho de servidores dedicados em serviços de nuvem
+      genéricos como Digital Ocean, já que a mesma não possui servidores em seu ambiente empresarial.
+    \item Há também carência de uma equipe para realizar a manutenção e a evolução do software pós produção, visto que a equipe de T.I. é
+      reduzida e os recursos financeiros são limitados.
+  \end{itemize}
+

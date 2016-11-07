@@ -1,1 +1,168 @@
 \chapter{Gerência de requisitos}
+
+  Neste capítulo serão apresentados os requisitos elicitados, desde os épicos, localizados no mais alto nível do SAFe até as
+  histórias de usuário no nível Team, o nível mais abaixo no SAFe.
+
+  Para a gerência de requisitos, foi utilizada a ferramenta TargetProcess, como foi proposto no trabalho 1.
+
+\section{Nível de Portifolio}
+
+  O Portfolio é o mais alto nível nível no SAFe, nesta etapa do trabalho o nível de portfólio é evidenciado pelas seguintes atividades:
+
+  \begin{itemize}
+    \item Aprender o contexto da empresa
+    \item Identificar o problema
+    \item Definir tema de investimento
+    \item Definir épicos
+    \item Validar épicos
+    \item Priorizar épicos
+    \item Gerenciar épicos
+  \end{itemize}
+
+\subsection{Requisitos elicitados}
+
+  Dado que um dos principais problemas relacionados com a empresa é a falta de espaço físico, necessitando sempre de alguma plataforma remota
+  para realizar os trabalhos e guardar seus produtos, isso se tornou um tema de investimento.
+
+  \begin{description}
+    \item[Tema de investimento:] \
+      \begin{itemize}
+        \item Armazenamento adequado de produtos
+      \end{itemize}
+    \item[Épicos] \
+      \begin{itemize}
+        \item EP-01: Criar banco de dados
+        \item EP-02: Criar Servidor
+      \end{itemize}
+  \end{description}
+
+  A seguir os épicos estão sendo detalhados através do template \textit{lightwaight business case}
+
+\subsubsection{Épico 01: Criar banco de dados}
+
+  \begin{table}[!htb]
+    \centering
+    \rowcolors{2}{gray!25}{white}
+    \begin{tabular}{rp{10cm}}                    \hline
+      \rowcolor{gray!50}
+      \multicolumn{2}{c}{Criação de Banco de Dados} \\ \hline
+      \textbf{Para}                 & A empresa e seus funcionários                                                             \\
+      \textbf{Quem}                 & Faz uso dos produtos da empresa                                                           \\
+      \textbf{A}                    & GeoBD                                                                                     \\
+      \textbf{É uma}                & Ferramenta de controle e armazenamento de documentos                                      \\
+      \textbf{Que}                  & Facilita e Centraliza os documentos                                                       \\
+      \textbf{Diferente}            & Usar ferramentas que não controlam acesso                                                 \\
+      \textbf{Nossa solução}        & Permite controlar o acesso aos documentos                                                 \\
+      \rowcolor{gray!50} \hline
+      \multicolumn{2}{c}{Escopo}                    \\ \hline
+      \textbf{Critérios de sucesso} & Garantir uma base de armazenamento privada e com capacidade de armazenamento média/alta.  \\
+      \textbf{No escopo}            & Controlar e facilitar acesso aos documentos produzidos pela empresa                       \\
+      \textbf{Fora do escopo}       & Validação dos arquivos inseridos no banco
+    \end{tabular}
+    \caption{Épico 01}
+  \end{table}
+
+\subsubsection{Épico 02: Criar servidor}
+
+  \begin{table}[!htb]
+    \centering
+    \rowcolors{2}{gray!25}{white}
+    \begin{tabular}{rp{10cm}}                 \hline
+      \rowcolor{gray!50}
+      \multicolumn{2}{c}{Criação de um servidor} \\ \hline
+      \textbf{Para}                 & Empresa e seus funcionários                                                                   \\
+      \textbf{Quem}                 & Faz uso dos produtos da empresas                                                              \\
+      \textbf{A}                    & GeoBD                                                                                         \\
+      \textbf{É uma}                & Plataforma remota                                                                             \\
+      \textbf{Que}                  & Gerencia o banco de dados                                                                     \\
+      \textbf{Diferente}            & De utilizar o banco de forma local, em somente um computador.                                 \\
+      \textbf{Nossa solução}        & Uma plataforma remota que possibilita a modificação do banco de dados                         \\
+      \rowcolor{gray!50} \hline
+      \multicolumn{2}{c}{Escopo} \\ \hline
+      \textbf{Critérios de sucesso} & Ser capaz de armazenar o banco de dados no servidor, levando em conta a capacidade e o nível
+                                      de segurança exigida pela empresa.                                                            \\
+      \textbf{No escopo}            & Capacidade de acesso a qualquer produto por qualquer membro da empresa.                       \\
+      \textbf{Fora do escopo}       & Validação dos arquivos inseridos no banco.
+    \end{tabular}
+    \caption{Épico 02}
+  \end{table}
+
+\section{Nível de programa}
+
+  O Program é o nível intermediário no SAFe, nesta etapa do trabalho o nível de programa é evidenciado pelas seguintes atividades:
+
+  \begin{itemize}
+    \item Definir features e enables
+    \item Validar features e enables
+    \item Definir visão
+    \item Priorizar features e enables
+    \item Definir roadmap
+    \item Planejar incremento do produto
+    \item Gerenciar features
+  \end{itemize}
+
+\subsection{Requisitos elicitados}
+
+  \begin{itemize}
+    \item \textbf{FEA-01}: Gerenciar imagens de satélite
+    \item \textbf{FEA-02}: Gerenciar projetos de ArcGIS
+    \item \textbf{FEA-03}: Expor informações dos arquivos
+    \item \textbf{FEA-04}: Personalizar o banco
+    \item \textbf{FEA-05}: Criptografia dos dados
+    \item \textbf{FEA-06}: Integridade do banco de dados
+    \item \textbf{FEA-07}: Gerenciar usuários
+  \end{itemize}
+
+  \begin{table}[!htb]
+    \centering
+    \rowcolors{2}{gray!25}{white}
+    \begin{tabular}{llp{3cm}p{8cm}} \hline
+      \rowcolor{gray!50}
+      \textbf{Épico} & \textbf{Feature} & \textbf{Descrição} & \textbf{Benefício}                                                     \\ \hline
+      EP-01 & FEA-01 & Gerenciar imagens de satélite  & Permitir o usuário total controle do banco de dados, possibilitando a adição
+                                                        e remoção de imagens.                                                         \\
+      EP-01 & FEA-02 & Gerenciar projetos de ArcGIS   & Permitir o usuário total controle do banco de dados, possibilitando a adição,
+                                                        remoção e alteração de projetos.                                              \\
+      EP-01 & FEA-03 & Expor informações dos arquivos & Permitir o usuário visualizar as informações sobre os metadados do arquivo.   \\
+      EP-01 & FEA-04 & Personalizar o banco           & Permitir a organização dos artefatos mantidos no banco                        \\
+      EP-02 & FEA-05 & Criptografia dos dados         & Permitir com que os arquivos sejam armazenados de forma segura.               \\
+      EP-02 & FEA-06 & Integridade do banco de dados  & Permitir com que os arquivos sejam recuperados caso ocorra uma transferência
+                                                        inadequada.                                                                   \\
+      EP-02 & FEA-07 & Gerenciar usuários             & Permitir com que somente usuários cadastrados pela empresa tenham acesso ao
+                                                        banco.
+    \end{tabular}
+    \caption{Tabela de Features}
+  \end{table}
+
+
+\subsection{Visão}
+
+  A visão do produto se encontrar no capitulo \ref{visao}
+
+\subsection{Roadmap}
+
+  Em construção\ldots
+
+\section{Nível de time}
+
+  O Team é o último nível do SAFe, nesta etapa do trabalho o nível de time é evidenciado pelas seguintes atividades:
+
+  \begin{itemize}
+    \item Definir histórias de usuários ou US
+    \item Validar US
+    \item Planejar sprint
+    \item Executar sprint
+    \item Gerenciar sprint
+    \item Gerenciar US
+  \end{itemize}
+
+\subsection{Requisitos elicitados}
+
+  Em construção\ldots
+
+\section{Gerência de mudança}
+
+  Falar sobre o targetProcess, inserir algumas imagens, rastreabilidade e atributos dos requisitos e etc\ldots
+
+  Em construção\ldots
+

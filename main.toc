@@ -4,20 +4,60 @@
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase {Introdu\IeC {\c c}\IeC {\~a}o}}{5}{chapter.1}
+\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase {Introdu\IeC {\c c}\IeC {\~a}o}}{6}{chapter.1}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Vis\IeC {\~a}o do projeto}}{6}{chapter.2}
+\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Vis\IeC {\~a}o do projeto}}{7}{chapter.2}
+\contentsline {section}{\numberline {2.1}Finalidade}{7}{section.2.1}
+\contentsline {section}{\numberline {2.2}Problema}{7}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Abordagem do problema}{7}{subsection.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.1.1}Tema de investimento}{7}{subsubsection.2.2.1.1}
+\contentsline {subsubsection}{\numberline {2.2.1.2}Diagrama de causa e efeito}{7}{subsubsection.2.2.1.2}
+\contentsline {subsubsection}{\numberline {2.2.1.3}Formula\IeC {\c c}\IeC {\~a}o do problema}{8}{subsubsection.2.2.1.3}
+\contentsline {subsubsection}{\numberline {2.2.1.4}Senten\IeC {\c c}a de Posi\IeC {\c c}\IeC {\~a}o do produto}{8}{subsubsection.2.2.1.4}
+\contentsline {subsection}{\numberline {2.2.2}Escopo}{9}{subsection.2.2.2}
+\contentsline {section}{\numberline {2.3}Descri\IeC {\c c}\IeC {\~a}o dos envolvidos e dos usu\IeC {\'a}rios}{9}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Resumo dos usu\IeC {\'a}rios}{9}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Resumo dos stakeholders}{9}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Principais Necessidades dos Usu\IeC {\'a}rios}{11}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.4}Alternativas e Concorr\IeC {\^e}ncia}{12}{subsection.2.3.4}
+\contentsline {section}{\numberline {2.4}Perspectiva do Produto}{12}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Descri\IeC {\c c}\IeC {\~a}o da Solu\IeC {\c c}\IeC {\~a}o e Recursos do produto}{12}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Recursos do produto}{12}{subsection.2.4.2}
+\contentsline {section}{\numberline {2.5}Restri\IeC {\c c}\IeC {\~o}es do Projeto}{12}{section.2.5}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Processo de Engenharia de Requisitos}}{7}{chapter.3}
-\contentsline {section}{\numberline {3.1}Modelo de Processo de Engenharia de Requisitos}{7}{section.3.1}
-\contentsline {section}{\numberline {3.2}Pap\IeC {\'e}is}{8}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}\textbf {Portf\IeC {\'o}lio}}{8}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}\textbf {Programa}}{8}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}\textbf {Time}}{8}{subsection.3.2.3}
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Processo de Engenharia de Requisitos}}{14}{chapter.3}
+\contentsline {section}{\numberline {3.1}Modelo de Processo de Engenharia de Requisitos}{14}{section.3.1}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Ger\IeC {\^e}ncia de requisitos}}{10}{chapter.4}
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Ger\IeC {\^e}ncia de requisitos}}{15}{chapter.4}
+\contentsline {section}{\numberline {4.1}N\IeC {\'\i }vel de Portifolio}{15}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Requisitos elicitados}{15}{subsection.4.1.1}
+\contentsline {subsubsection}{\numberline {4.1.1.1}\IeC {\'E}pico 01: Criar banco de dados}{16}{subsubsection.4.1.1.1}
+\contentsline {subsubsection}{\numberline {4.1.1.2}\IeC {\'E}pico 02: Criar servidor}{16}{subsubsection.4.1.1.2}
+\contentsline {section}{\numberline {4.2}N\IeC {\'\i }vel de programa}{17}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Requisitos elicitados}{17}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Vis\IeC {\~a}o}{17}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Roadmap}{17}{subsection.4.2.3}
+\contentsline {section}{\numberline {4.3}N\IeC {\'\i }vel de time}{18}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Requisitos elicitados}{18}{subsection.4.3.1}
+\contentsline {section}{\numberline {4.4}Ger\IeC {\^e}ncia de mudan\IeC {\c c}a}{18}{section.4.4}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Conclus\IeC {\~a}o}}{11}{chapter.5}
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Planejamento da primeira itera\IeC {\c c}\IeC {\~a}o}}{20}{chapter.5}
+\contentsline {section}{\numberline {5.1}Planejamento da sprint 01}{20}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Revis\IeC {\~a}o da sprint 01}{20}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Retrospectiva da sprint 01}{20}{subsection.5.1.2}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase {Conclus\IeC {\~a}o}}{21}{chapter.6}
+\contentsline {section}{\numberline {6.1}Experi\IeC {\^e}ncia de Execu\IeC {\c c}\IeC {\~a}o do Trabalho}{21}{section.6.1}
+\contentsline {section}{\numberline {6.2}Experi\IeC {\^e}ncia da Disciplina}{21}{section.6.2}
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{Refer\^encias}{12}{section*.4}
+\contentsline {chapter}{Refer\^encias}{22}{section*.4}
+\cftinsert {AAA}
+\renewcommand *{\cftappendixname }{ANEXO \space }
+\setlength {\cftpartindent }{\cftlastnumwidth } \setlength {\cftpartnumwidth }{2em}
+\cftinsert {A}
+\contentsline {part}{\uppercase {Anexos}}{23}{section*.5}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {Diagrama de Fishbone}}{24}{appendix.anexochapback.1}

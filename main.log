@@ -1,11 +1,12 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2016.10.13)  28 OCT 2016 22:11
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2016.10.13)  6 NOV 2016 23:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **main.tex fixos/informacoes.tex fixos/novosComandos.tex fixos/pacotes.tex fixo
 s/setup.tex fixos/listasAutomaticas.tex fixos/indiceAutomatico.tex editaveis/in
 formacoes.tex editaveis/introducao.tex editaveis/processo.tex editaveis/gerenci
-a.tex editaveis/conclusao.tex editaveis/visao.tex
+a.tex editaveis/conclusao.tex editaveis/visao.tex editaveis/iteracao.tex editav
+eis/anexo.tex
 (./main.tex
 LaTeX2e <2011/06/27>
 Babel <3.9h> and hyphenation patterns for 78 languages loaded.
@@ -944,9 +945,32 @@ Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
 \c@LT@chunks=\count174
 \LT@p@ftn=\toks34
 ))
+(/usr/share/texmf/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: dvips.def on input line 225.
+
+(/usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
+\everycr=\toks35
+\minrowclearance=\skip206
+)
+LaTeX Info: Redefining \color on input line 702.
+\rownum=\count175
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
 (./fixos/novosComandos.tex) (./editaveis/informacoes.tex)
 (./fixos/informacoes.tex) (./fixos/setup.tex
-Package color Info: Redefining color blue on input line 1.
 Package hyperref Info: Option `colorlinks' set `true' on input line 16.
 )
 \main@idxfile=\write4
@@ -984,7 +1008,7 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count175
+\c@section@level=\count176
 )
 Redoing nameref's sectioning
 Redoing nameref's label
@@ -993,7 +1017,7 @@ LaTeX Info: Redefining \ref on input line 8.
 LaTeX Info: Redefining \pageref on input line 8.
 LaTeX Info: Redefining \nameref on input line 8.
 \myptabbox=\box36
-\myptabboxwidth=\skip206
+\myptabboxwidth=\skip207
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             http://www.ctan.org/tex-archive/ 
 (lastpage)             macros/latex/contrib/pageslts/ 
@@ -1044,44 +1068,148 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 ] (./fixos/listasAutomaticas.tex
 (./main.lof) [2] (./main.lot) [3
 
-]) (./fixos/indiceAutomatico.tex (./main.toc)
+]) (./fixos/indiceAutomatico.tex (./main.toc
 [4
 
-]) (./editaveis/introducao.tex) (./editaveis/visao.tex [5
-
-
-])
-(./editaveis/processo.tex [6
-
 ]
-File: figuras/processo/processo.eps Graphic file (type eps)
- <figuras/processo/processo.eps>
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 22.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <14.4> on input line 59.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 59.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 59.
+) [5]) (./editaveis/introducao.tex) (./editaveis/visao.tex [6
 
-(/usr/share/texmf/tex/latex/lm/omslmr.fd
+
+] [7
+
+] [8]
+Underfull \hbox (badness 10000) in paragraph at lines 104--104
+[]|\T1/lmr/m/n/12 Funcionarios da
+ []
+
+
+Overfull \hbox (22.01768pt too wide) in paragraph at lines 95--108
+ [][] 
+ []
+
+
+Underfull \hbox (badness 2096) in paragraph at lines 148--148
+[]|\T1/lmr/m/n/12 Arquiteto da em-
+ []
+
+
+Overfull \hbox (22.01768pt too wide) in paragraph at lines 124--157
+ [][] 
+ []
+
+
+Overfull \hbox (22.01768pt too wide) in paragraph at lines 163--183
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 193--193
+[]|\T1/lmr/m/n/12 Product Ow-ner
+ []
+
+
+Underfull \hbox (badness 2165) in paragraph at lines 193--195
+[]|\T1/lmr/m/n/12 Representa a pes-soa que tem
+ []
+
+
+Underfull \hbox (badness 1924) in paragraph at lines 206--213
+[]|\T1/lmr/m/n/12 Uma das res-pon-sa-bi-li-da-des do
+ []
+
+
+Underfull \hbox (badness 1178) in paragraph at lines 206--213
+\T1/lmr/m/n/12 fa-ci-li-tar os en-con-tros do time,
+ []
+
+
+Overfull \hbox (22.01768pt too wide) in paragraph at lines 189--220
+ [][] 
+ []
+
+[9]
+
+LaTeX Warning: Text page 10 contains only floats.
+
+[10]
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 229.
+
+ (/usr/share/texmf/tex/latex/lm/omslmr.fd
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 22.
- [7
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 229.
+ [11] [12])
+(./editaveis/processo.tex [13]
+File: figuras/processo/processo.eps Graphic file (type eps)
+ <figuras/processo/processo.eps>)
+(./editaveis/gerencia.tex [14
 
-] [8]) (./editaveis/gerencia.tex
-[9]) (./editaveis/conclusao.tex [10
+] [15
 
-]) (./main.bbl (./main.brf)
+] [16]
+Underfull \hbox (badness 10000) in paragraph at lines 122--122
+[]|\T1/lmr/m/n/12 Gerenciar ima-
+ []
+
+
+Underfull \hbox (badness 3713) in paragraph at lines 126--126
+[]|\T1/lmr/m/n/12 Expor in-for-ma-
+ []
+
+
+Underfull \hbox (badness 1152) in paragraph at lines 126--126
+\T1/lmr/m/n/12 ções dos ar-qui-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--127
+[]|\T1/lmr/m/n/12 Personalizar o
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--129
+[]|\T1/lmr/m/n/12 Integridade do
+ []
+
+
+Underfull \hbox (badness 1033) in paragraph at lines 131--131
+[]|\T1/lmr/m/n/12 Gerenciar usuá-
+ []
+
+[17]) (./editaveis/iteracao.tex [18] [19]) (./editaveis/conclusao.tex [20
+
+])
+(./main.bbl (./main.brf)
 \tf@brf=\write5
 \openout5 = `main.brf'.
 
- [11
+ [21
 
 ]
 bibitemlist
 
 LaTeX Warning: Empty `thebibliography' environment on input line 8.
 
-) 
+) (./editaveis/anexo.tex [22
+
+]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\uppercase' on input line 4.
+
+[23
+
+
+]) 
 AED: lastpage setting LastPage
-[12
+[24
 
 ]
 \tf@lof=\write6
@@ -1093,25 +1221,25 @@ AED: lastpage setting LastPage
 \tf@toc=\write8
 \openout8 = `main.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 28.
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 28.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 30.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 30.
 \BKM@file=\write9
 \openout9 = `main.out.ps'.
 
  (./main.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 28.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 28.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 30.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 30.
 Package rerunfilecheck Info: File `main.brf' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 28.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 30.
  ) 
 Here is how much of TeX's memory you used:
- 11538 strings out of 493305
- 167387 string characters out of 6139896
- 293145 words of memory out of 5000000
- 14773 multiletter control sequences out of 15000+600000
- 57492 words of font info for 41 fonts, out of 8000000 for 9000
+ 12062 strings out of 493305
+ 173420 string characters out of 6139896
+ 318110 words of memory out of 5000000
+ 15274 multiletter control sequences out of 15000+600000
+ 75338 words of font info for 52 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 44i,12n,51p,533b,446s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,12n,51p,556b,473s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (13 pages, 30668 bytes).
+Output written on main.dvi (25 pages, 98920 bytes).
