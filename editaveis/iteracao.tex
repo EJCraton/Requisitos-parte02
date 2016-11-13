@@ -4,7 +4,57 @@
 
 \section{Planejamento da sprint 01}
 
-  Em construção\ldots
+  As histórias que serão implementadas nessa sprint são:
+
+   \begin{itemize}
+    \item US01: \textbf{Eu} como usuário, \textbf{desejo} salvar uma imagem de satélite. \textbf{Para que eu possa} acessar a qualquer momento e local posteriormente
+    \begin{itemize}
+    	\item Para salvar uma imagem o usuário deve estar logado no sistema
+		\item O usuário deve acessar o menu em “Enviar”
+		\item O usuário deve selecionar uma pasta ou projeto para enviar a imagem 
+		\item O usuário seleciona a imagem que deseja enviar ao sistema
+		\item A imagem não pode possuir o mesmo nome de outra imagem que esteja na mesma pasta ou projeto
+		\item O sistema deve confirmar a inclusão, ou avisar caso haja algum problema
+    \end{itemize}
+    \item US02: \textbf{Eu} como usuário, \textbf{desejo} acessar uma imagem de satélite do banco. \textbf{Para que eu possa} realizar meu trabalho
+    \begin{itemize}
+    	\item É necessário estar logado e ter permissões para acessar a imagem. 
+    	\item Para acessar imagem é necessário ir para a pasta ou projeto onde a mesma se encontre.
+    	\item Do lado do nome da imagem deve existir o botão “Baixar”, que executa a ação e baixa a imagem para a pasta de downloads da máquina que está acessando a aplicação.
+    \end{itemize}
+    \item US03: \textbf{Eu} como usuário, \textbf{desejo} excluir uma imagem de satélite do banco. \textbf{Para que eu possa} organizar melhor meus arquivos
+    \begin{itemize}
+    	\item É necessário estar logado e ter permissão para deletar a imagem. 
+    	\item Para deletar a  imagem é necessário ir para a pasta ou projeto onde a mesma se encontre.
+    	\item Do lado do nome da imagem deve existir o botão “Excluir”, que executa a ação e deleta a imagem.
+    \end{itemize}
+    \item US12: \textbf{Eu} como usuário, \textbf{desejo} me cadastrar na ferramenta. \textbf{Para que eu possa} utilizar a mesma 
+    \begin{itemize}
+    	\item Ao entrar na aplicação, deve ser mostrado um quadro com as informações necessárias para realizar o cadastro.
+    	\item O usuário deve então entrar com os seguintes dados: nome completo, cpf, matrícula, telefone, email e senha. 
+    	\item Ao finalizar de preencher os dados devem ser validados de forma que: nome não pode passar de 150 caracteres, somente letras; cpf e matrícula devem ser validados; matrícula com 10 caracteres, apenas números;  e cada pessoa pode possuir apenas um registro no sistema.
+    	\item Caso algum dado digitado não passe na validação uma mensagem deve ser informada ao usuário pelo o motivo do dado não ter sido aceito.
+    	\item Caso as informações sejam válidas o usuário deverá ser cadastrado no sistema.
+    \end{itemize}
+    \item US13: \textbf{Eu} como usuário, \textbf{desejo} editar meu perfil. \textbf{Para que eu possa} atualizar minhas informações
+    \begin{itemize}
+    	\item Ao entrar na aplicação, e obter êxito ao realizar login em sua conta, deve ser mostrado um quadro com as informações necessárias para gerenciar a conta.
+    	\item O usuário então terá a possibilidade de alterar seu telefone, senha ou email. Os critérios de validação desses campos são realizados da seguinte forma: telefone é constituído somente por números, senhas deverão ter um tamanho mínimo de 6 caracteres e o email deverá ser na forma example@example.com.
+    	\item Caso algum dado digitado não passe na validação uma mensagem deve ser informada ao usuário pelo o motivo do dado não ter sido aceito.
+    	\item Caso as informações sejam válidas as informações do usuário modificadas deverão ser atualizadas no sistema.
+    \end{itemize}
+        \item US14: \textbf{Eu} como administrador, \textbf{desejo} ser capaz de deletar perfis de usuário. \textbf{Para que eu possa} remover contas de usuário que não trabalham mais na empresa
+    \begin{itemize}
+    	\item É necessário estar logado com uma conta de administrador. 
+    	\item O administrador deverá conseguir deletar qualquer conta que possua um nível de permissão abaixo de administrador.
+    	\item Para o administrador deve existir um menu que não aparece para os usuários.
+    	\item No menu de administrador, é possível visualizar os usuários. Ao clicar no usuário deve aparecer as opções de gerência, como deletar.
+    	\item Ao clicar em deletar deve aparecer uma janela de confirmação, garantido que um usuário seja deletado por acaso.
+    	\item Caso um usuário seja deletado seus projetos continuam como estão.
+    \end{itemize}
+  \end{itemize}
+  
+
 
 \subsection{Revisão da sprint 01}
 
