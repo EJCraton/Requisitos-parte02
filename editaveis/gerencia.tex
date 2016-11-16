@@ -347,15 +347,7 @@
 
     Dificuldade: 5
 
-
-
-\section{Gerência de mudança}
-
-  Falar sobre o targetProcess, inserir algumas imagens, rastreabilidade e atributos dos requisitos e etc\ldots
-
-  Em construção\ldots
-
-\section{Rastreabilidade}
+\section{Gerência de mudança e Rastreabilidade}
 
   Nesse tópico será apresentada a rastreabilidade vertical e horizontal dos requisitos elicitados.
 
@@ -363,55 +355,220 @@
 
 A rastreabilidade vertical pode ser percebida em “níveis” o mais alto e mais próximo do mundo real são os épicos, que são separadas em features e implementadas em histórias de usuário. A ferramenta Targetprocess apresenta essa rastreabilidade de uma maneira bastante simple e intuitiva.
 
-\begin{figure}[!htb]
+  \begin{figure}[!htb]
     \centering
-    \includegraphics[width=10cm, keepaspectratio=false]{figuras/rastreabilidade/vertical/features.eps}
+    \includegraphics[width=6cm, keepaspectratio=false]{figuras/rastreabilidade/vertical/features.eps}
     \caption{Visão geral da rastreabilidade. O épico Criação de Banco e suas Features}
   \end{figure}
 
   \begin{figure}[!htb]
     \centering
-    \includegraphics[width=10cm, keepaspectratio=false]{figuras/rastreabilidade/vertical/feature_criptografia.eps}
+    \includegraphics[width=7cm, keepaspectratio=false]{figuras/rastreabilidade/vertical/feature_criptografia.eps}
     \caption{Rastreabilidade vertical entre Épico Criação de Banco e a Feature Criptografia e sua História de Usuário Criptografar Dados}
   \end{figure}
 
   \begin{figure}[!htb]
     \centering
-    \includegraphics[width=10cm, keepaspectratio=false]{figuras/rastreabilidade/vertical/feature_gerenciar_usuario.eps}
+    \includegraphics[width=7cm, keepaspectratio=false]{figuras/rastreabilidade/vertical/feature_gerenciar_usuario.eps}
     \caption{Rastreabilidade vertical entre Épico Criação de Banco e a Feature Gerenciar Usuário e suas História de Usuário}
   \end{figure}
 
   \begin{figure}[!htb]
     \centering
-    \includegraphics[width=10cm, keepaspectratio=false]{figuras/rastreabilidade/vertical/feature_personalizar_banco.eps}
+    \includegraphics[width=7cm, keepaspectratio=false]{figuras/rastreabilidade/vertical/feature_personalizar_banco.eps}
     \caption{Rastreabilidade vertical entre Épico Criação de Banco e a Feature Personalizar Banco e suas História de Usuário}
   \end{figure}
 
   \begin{figure}[!htb]
     \centering
-    \includegraphics[width=10cm, keepaspectratio=false]{figuras/rastreabilidade/vertical/feature_gerenciar_imagens.eps}
+    \includegraphics[width=7cm, keepaspectratio=false]{figuras/rastreabilidade/vertical/feature_gerenciar_imagens.eps}
     \caption{Rastreabilidade vertical entre Épico Criação de Banco e a Feature Gerenciar Imagens de Satélite e suas História de Usuário}
   \end{figure}
 
   \begin{figure}[!htb]
     \centering
-    \includegraphics[width=10cm, keepaspectratio=false]{figuras/rastreabilidade/vertical/feature_expor.eps}
+    \includegraphics[width=7cm, keepaspectratio=false]{figuras/rastreabilidade/vertical/feature_expor.eps}
     \caption{Rastreabilidade vertical entre Épico Criação de Banco e a Feature Expor Informações dos Arquivos e suas História de Usuário}
   \end{figure}
 
   \begin{figure}[!htb]
     \centering
-    \includegraphics[width=10cm, keepaspectratio=false]{figuras/rastreabilidade/vertical/feature_gerenciar_projeto.eps}
+    \includegraphics[width=7cm, keepaspectratio=false]{figuras/rastreabilidade/vertical/feature_gerenciar_projeto.eps}
     \caption{Rastreabilidade vertical entre Épico Criação de Banco e a Feature Gerenciar Projetos de ArcGIS e suas História de Usuário}
   \end{figure}
 
   \begin{figure}[!htb]
     \centering
-    \includegraphics[width=10cm, keepaspectratio=false]{figuras/rastreabilidade/vertical/feature_integridade.eps}
+    \includegraphics[width=7cm, keepaspectratio=false]{figuras/rastreabilidade/vertical/feature_integridade.eps}
     \caption{Rastreabilidade vertical entre Épico Criação de Banco e a Feature Integridade e suas História de Usuário}
   \end{figure}
 
-
-
+  \clearpage
 
 \subsection{Rastreabilidade Horizontal}
+
+  A rastreabilidade vertical aconteceu através da dependência entre Features e História de usuário. Segue, as features e suas histórias de
+  usuário e suas relações de dependência.
+
+\subsubsection{gerenciar projeto}
+
+  \begin{figure}[!htb]
+    \centering
+    \includegraphics[width=10cm, keepaspectratio=false]{figuras/rastreabilidade/horizontal/gerenciar_projetos/feature_gerenciar.eps}
+    \caption{Rastreabilidade Horizontal entre Feature Gerenciar Projeto ArcGIS e as demais Features}
+  \end{figure}
+
+  \begin{figure}[!htb]
+    \centering
+    \includegraphics[width=10cm, keepaspectratio=false]{figuras/rastreabilidade/horizontal/gerenciar_projetos/historia_inserir_projeto.eps}
+    \caption{Rastreabilidade Horizontal entre a História de Usuário Inserir Projeto ArcGIS e as Histórias da Feature}
+  \end{figure}
+
+  \begin{figure}[!htb]
+    \centering
+    \includegraphics[width=10cm, keepaspectratio=false]{figuras/rastreabilidade/horizontal/gerenciar_projetos/historia_alterar_projeto.eps}
+    \caption{Rastreabilidade Horizontal entre a História de Usuário Acessar um Projeto ArcGIS e as Histórias da Feature}
+  \end{figure}
+
+  \begin{figure}[!htb]
+    \centering
+    \includegraphics[width=10cm, keepaspectratio=false]{figuras/rastreabilidade/horizontal/gerenciar_projetos/historia_excluir_projeto.eps}
+    \caption{Rastreabilidade Horizontal entre a História de Excluir um Projeto ArcGIS e as Histórias da Feature}
+  \end{figure}
+
+  \begin{figure}[!htb]
+    \centering
+    \includegraphics[width=10cm, keepaspectratio=false]{figuras/rastreabilidade/horizontal/gerenciar_projetos/historia_alterar_projeto.eps}
+    \caption{Rastreabilidade Horizontal entre a História de Usuário Alterar um Projeto ArcGIS e as Histórias da Feature}
+  \end{figure}
+
+  \begin{figure}[!htb]
+    \centering
+    \includegraphics[width=10cm, keepaspectratio=false]{figuras/rastreabilidade/horizontal/gerenciar_projetos/historia_avaliar_projeto.eps}
+    \caption{Rastreabilidade Horizontal entre a História Enabler Avaliar Interface Gerenciar Projetos ArcGIS e as Histórias da Feature}
+  \end{figure}
+
+  \clearpage
+
+\subsubsection{Gerenciar Usuários}
+
+  \begin{figure}[!htb]
+    \centering
+    \includegraphics[width=10cm, keepaspectratio=false]{figuras/rastreabilidade/horizontal/gerenciar_usuario/feature_gerencia_usuario.eps}
+    \caption{Rastreabilidade Horizontal entre Feature Gerenciar Usuários e as demais Features}
+  \end{figure}
+
+  \begin{figure}[!htb]
+    \centering
+    \includegraphics[width=10cm, keepaspectratio=false]{figuras/rastreabilidade/horizontal/gerenciar_usuario/historia_permissoes.eps}
+    \caption{Rastreabilidade Horizontal entre a História de Usuário Permissões do Usuário e as Histórias da Feature}
+  \end{figure}
+
+\subsubsection{gerenciar usuário}
+
+  \begin{figure}[!htb]
+    \centering
+    \includegraphics[width=10cm, keepaspectratio=false]{figuras/rastreabilidade/horizontal/gerenciar_usuario/feature_gerencia_usuario.eps}
+    \caption{Rastreabilidade Horizontal entre Feature Gerenciar Usuários e as demais Features}
+  \end{figure}
+
+  \begin{figure}[!htb]
+    \centering
+    \includegraphics[width=10cm, keepaspectratio=false]{figuras/rastreabilidade/horizontal/gerenciar_usuario/historia_permissoes.eps}
+    \caption{Rastreabilidade Horizontal entre a História de Usuário Permissões do Usuário e as Histórias da Feature}
+  \end{figure}
+
+
+  \begin{figure}[!htb]
+    \centering
+    \includegraphics[width=10cm, keepaspectratio=false]{figuras/rastreabilidade/horizontal/gerenciar_usuario/historia_editar_perfil.eps}
+    \caption{Rastreabilidade Horizontal entre a História de Usuário Editar Meu Perfil e as Histórias da Feature}
+  \end{figure}
+
+  \begin{figure}[!htb]
+    \centering
+    \includegraphics[width=10cm, keepaspectratio=false]{figuras/rastreabilidade/horizontal/gerenciar_usuario/historia_remover_usuario.eps}
+    \caption{Rastreabilidade Horizontal entre a História de Usuário Remover Usuário e as Histórias da Feature}
+  \end{figure}
+
+  \begin{figure}[!htb]
+    \centering
+    \includegraphics[width=10cm, keepaspectratio=false]{figuras/rastreabilidade/horizontal/gerenciar_usuario/historia_log.eps}
+    \caption{Rastreabilidade Horizontal entre a História de Usuário Log de Uso do Sistema e as Histórias da Feature}
+  \end{figure}
+
+
+  \begin{figure}[!htb]
+    \centering
+    \includegraphics[width=10cm, keepaspectratio=false]{figuras/rastreabilidade/horizontal/gerenciar_usuario/historia_cadastrar_usuario.eps}
+    \caption{Rastreabilidade Horizontal entre a História de Usuário Cadastrar Usuário e as Histórias da Feature}
+  \end{figure}
+
+  \begin{figure}[!htb]
+    \centering
+    \includegraphics[width=10cm, keepaspectratio=false]{figuras/rastreabilidade/horizontal/gerenciar_usuario/historia_avaliar_cadastro.eps}
+    \caption{Rastreabilidade Horizontal entre a História Enabler Avaliar Interface Cadastro de Usuário e as Histórias da Feature}
+  \end{figure}
+
+  \begin{figure}[!htb]
+    \centering
+    \includegraphics[width=10cm, keepaspectratio=false]{figuras/rastreabilidade/horizontal/gerenciar_usuario/historia_avaliar_adm.eps}
+    \caption{Rastreabilidade Horizontal entre a História Enabler Avaliar Painel do Administrador e as Histórias da Feature}
+  \end{figure}
+
+  \clearpage
+
+\subsubsection{integridade}
+
+  \begin{figure}[!htb]
+    \centering
+    \includegraphics[width=10cm, keepaspectratio=false]{figuras/rastreabilidade/horizontal/integridade/feature_integridade.eps}
+    \caption{Rastreabilidade Horizontal entre Feature Integridade e as demais Features}
+  \end{figure}
+
+  \begin{figure}[!htb]
+    \centering
+    \includegraphics[width=10cm, keepaspectratio=false]{figuras/rastreabilidade/horizontal/integridade/historia_garantir_integridade.eps}
+    \caption{Rastreabilidade Horizontal entre a História de Usuário Garantir Integridade e as Histórias da Feature}
+  \end{figure}
+
+  \begin{figure}[!htb]
+    \centering
+    \includegraphics[width=10cm, keepaspectratio=false]{figuras/rastreabilidade/horizontal/integridade/historia_backup.eps}
+    \caption{Rastreabilidade Horizontal entre a História de Usuário Fazer BACKUP e as Histórias da Feature}
+  \end{figure}
+
+  \begin{figure}[!htb]
+    \centering
+    \includegraphics[width=10cm, keepaspectratio=false]{figuras/rastreabilidade/horizontal/integridade/historia_avaliar_servidor.eps}
+    \caption{Rastreabilidade Horizontal entre a História de Usuário Avaliar Servidor e as Histórias da Feature}
+  \end{figure}
+
+  \clearpage
+
+\subsubsection{personalizar banco}
+
+  \begin{figure}[!htb]
+    \centering
+    \includegraphics[width=10cm, keepaspectratio=false]{figuras/rastreabilidade/horizontal/personalizar_banco/feature_personalisar_banco.eps}
+    \caption{Rastreabilidade Horizontal entre Feature Personalizar o Banco e as demais Features}
+  \end{figure}
+
+  \begin{figure}[!htb]
+    \centering
+    \includegraphics[width=10cm, keepaspectratio=false]{figuras/rastreabilidade/horizontal/personalizar_banco/historia_pasta.eps}
+    \caption{Rastreabilidade Horizontal entre a História de Usuário Criar Pasta e as Histórias da Feature}
+  \end{figure}
+
+  \begin{figure}[!htb]
+    \centering
+    \includegraphics[width=10cm, keepaspectratio=false]{figuras/rastreabilidade/horizontal/personalizar_banco/historia_renomear.eps}
+    \caption{Rastreabilidade Horizontal entre a História de Usuário Renomear Arquivos e as Histórias da Feature}
+  \end{figure}
+
+  \begin{figure}[!htb]
+    \centering
+    \includegraphics[width=10cm, keepaspectratio=false]{figuras/rastreabilidade/horizontal/personalizar_banco/historia_mover.eps}
+    \caption{Rastreabilidade Horizontal entre a História de Usuário Mover Arquivos e as Histórias da Feature}
+  \end{figure}
+
