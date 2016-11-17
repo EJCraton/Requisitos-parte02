@@ -212,6 +212,19 @@
 
     Dificuldade: 5
 
+    Feature: FEA-01
+
+    Critérios de Aceitação:
+    \begin{itemize}
+      \item Para salvar uma imagem o usuário deve estar logado no sistema
+      \item O usuário deve acessar o menu em “Enviar”
+      \item O usuário deve selecionar uma pasta ou projeto para enviar a imagem 
+      \item O usuário seleciona a imagem que deseja enviar ao sistema
+      \item A imagem não pode possuir o mesmo nome de outra imagem que esteja na mesma pasta ou projeto
+      \item O sistema deve confirmar a inclusão, ou avisar caso haja algum problema
+    \end{itemize}
+
+
   \subsubsection{História de usuário 2}
 
     \textbf{Eu} como usuário, \textbf{desejo} acessar uma imagem de satélite do banco. \textbf{Para que eu possa} realizar meu trabalho
@@ -219,6 +232,15 @@
     Prioridade: \textbf{Alta}
 
     Dificuldade: 3
+
+    Feature: FEA-01
+
+    Critérios de Aceitação:
+    \begin{itemize}
+      \item É necessário estar logado e ter permissões para acessar a imagem. 
+      \item Para acessar imagem é necessário ir para a pasta ou projeto onde a mesma se encontre.
+      \item Do lado do nome da imagem deve existir o botão “Baixar”, que executa a ação e baixa a imagem para a pasta de downloads da máquina que está acessando a aplicação.
+    \end{itemize}
 
   \subsubsection{História de usuário 3}
 
@@ -228,12 +250,34 @@
 
     Dificuldade: 3
 
+    Feature: FEA-01
+
+    Critérios de Aceitação:
+    \begin{itemize}
+      \item É necessário estar logado e ter permissão para deletar a imagem. 
+      \item Para deletar a  imagem é necessário ir para a pasta ou projeto onde a mesma se encontre.
+      \item Do lado do nome da imagem deve existir o botão “Excluir”, que executa a ação e deleta a imagem.
+    \end{itemize}
+
+
   \subsubsection{História de usuário 4}
     \textbf{Eu} como usuário, \textbf{desejo} salvar um projeto ArcGIS. \textbf{Para que eu possa} acessar a qualquer momento e local posteriormente
 
     Prioridade: \textbf{Alta}
 
     Dificuldade: 8
+
+    Feature: FEA-02
+
+    Critérios de Aceitação:
+    \begin{itemize}
+      \item Para salvar uma projeto o usuário deve estar logado no sistema.
+      \item O usuário deve acessar o menu projetos ArcGIS e ir na opção “Enviar”
+      \item O usuário deve selecionar uma pasta onde o projeto deve ser salvo 
+      \item O usuário seleciona um projeto que deseja enviar ao sistema
+      \item O projeto não pode possuir o mesmo nome de outro projeto que esteja na mesma pasta
+      \item O sistema deve confirmar a inclusão, ou avisar caso haja algum problema
+    \end{itemize}
 
   \subsubsection{História de usuário 5}
     \textbf{Eu} como usuário, \textbf{desejo} acessar um projeto ArcGIS. \textbf{Para que eu possa} realizar meu trabalho
@@ -242,12 +286,31 @@
 
     Dificuldade: 5
 
+    Feature: FEA-02
+
+    Critérios de Aceitação:
+    \begin{itemize}
+      \item É necessário estar logado e ter permissões para acessar o projeto. 
+      \item Para acessar o projeto é necessário ir para a pasta onde a mesma se encontre.
+      \item Do lado do nome do projeto deve existir o botão “Baixar”, que executa a ação e baixa o projeto para a pasta de downloads da máquina que está acessando a aplicação.
+    \end{itemize}
+
   \subsubsection{História de usuário 6}
     \textbf{Eu} como usuário, \textbf{desejo} excluir um projeto ArcGIS. \textbf{Para que eu possa} organizar melhor meus arquivos
 
     Prioridade: \textbf{Alta}
 
     Dificuldade: 5
+
+    Feature: FEA-02
+
+    Critérios de Aceitação:
+    \begin{itemize}
+      \item O sistema deve confirmar a inclusão, ou avisar caso haja algum problema
+      \item É necessário estar logado e ter permissão para deletar um projeto. 
+      \item Para deletar a  um projeto é necessário ir para a pasta ou projeto onde o mesmo se encontre.
+      \item Do lado do nome do projeto deve existir o botão “Excluir”, que executa a ação e deleta o projeto.
+    \end{itemize}
 
   \subsubsection{História de usuário 7}
     \textbf{Eu} como usuário, \textbf{desejo} alterar um projeto ArcGIS. \textbf{Para que eu possa} consertar possíveis erros
@@ -256,12 +319,30 @@
 
     Dificuldade: 5
 
+    Feature: FEA-02
+
+    Critérios de Aceitação:
+    \begin{itemize}
+      \item É necessário estar logado e ter permissão para alterar um projeto. 
+      \item Para alterar um projeto é necessário ir para a pasta ou projeto onde o mesmo se encontre.
+      \item Do lado do nome do projeto deve existir o botão “Alterar”, que executa a ação e altera o projeto para um novo que deve ser selecionado da máquina do usuário.
+    \end{itemize}
+
   \subsubsection{História de usuário 8}
     \textbf{Eu} como desenvolvedor, \textbf{desejo} implementar um sistema de criptografia. \textbf{Para que eu possa} garantir segurança aos dados
 
     Prioridade: \textbf{Média}
 
     Dificuldade: 8
+
+    Feature: FEA-05
+
+    Critérios de Aceitação:
+    \begin{itemize}
+      \item Os dados armazenados deverão ser criptografados
+      \item Caso ocorra alguma falha de segurança, os dados deverão permanecer protegidos
+      \item Os dados requisitados por usuários com permissões adequadas deverão ser descriptografados
+    \end{itemize}
 
   \subsubsection{História de usuário 9}
     \textbf{Eu} como desenvolvedor, \textbf{desejo} implementar um sistema de validação de integridade dos arquivos. \textbf{Para que eu possa} garantir que os dados não sejam corrompidos
@@ -270,12 +351,29 @@
 
     Dificuldade: 8
 
+    Feature: FEA-06
+
+    Critérios de Aceitação:
+    \begin{itemize}
+      \item Caso algum erro ocorra ao adicionar um novo arquivo ou alterar um arquivo já existente, seja possível recuperar os arquivos corrompidos ou removidos devido a esse erro
+      \item Avisar o usuário em momentos em que os dados podem ser corrompidos caso haja uma queda de energia ou desconexão com a internet
+      \item Caso exista algum erro, avisar ao usuário sobre o ocorrido
+    \end{itemize}
+
   \subsubsection{História de usuário 10}
     \textbf{Eu} como desenvolvedor, \textbf{desejo} implementar um sistema de backup. \textbf{Para que eu possa} garantir maior integridade ao banco
 
     Prioridade: \textbf{Média}
 
     Dificuldade: 8
+
+    Feature: FEA-06
+
+    Critérios de Aceitação:
+    \begin{itemize}
+      \item O backup deve ser realizado semanalmente.
+      \item O backup deve ser de todos os dados.
+    \end{itemize}
 
   \subsubsection{História de usuário 11}
     \textbf{Eu} como administrador, \textbf{desejo} um sistema de permissões. \textbf{Para que eu possa} garantir acesso aos dados somente por autorizados
@@ -284,12 +382,33 @@
 
     Dificuldade: 8
 
+    Feature: FEA-05
+
+    Critérios de Aceitação:
+    \begin{itemize}
+      \item Cada usuário pode excluir ou alterar apenas projetos que ele mesmo criou, para ter esse tipo de acesso a outros projetos é necessário que o administrador dê essa permissão ao usuário comum.
+      \item Para o administrador deve existir um menu que não aparece para os usuários.
+      \item No menu de administrador, é possível visualizar os usuários. Ao clicar no usuário deve aparecer as opçoẽs de gerência, como autorizar.
+      \item Ao clicar em autorizar deve aparecer uma janela com os projetos, que deve ser filtrada pelo nome. Ao digitar parte do nome dos projetos já deve aparecer sugestões de projeto.
+    \end{itemize}
+
   \subsubsection{História de usuário 12}
     \textbf{Eu} como usuário, \textbf{desejo} me cadastrar na ferramenta. \textbf{Para que eu possa} utilizar a mesma
 
     Prioridade: \textbf{Alta}
 
     Dificuldade: 5
+
+    Feature: FEA-07
+
+    Critérios de Aceitação:
+    \begin{itemize}
+      \item Ao entrar na aplicação, deve ser mostrado um quadro com as informações necessárias para realizar o cadastro.
+      \item O usuário deve então entrar com os seguintes dados: nome completo, cpf, matrícula, telefone, email e senha. 
+      \item Ao finalizar de preencher os dados devem ser validados de forma que: nome não pode passar de 150 caracteres, somente letras; cpf e matrícula devem ser validados; matrícula com 10 caracteres, apenas números;  e cada pessoa pode possuir apenas um registro no sistema.
+      \item Caso algum dado digitado não passe na validação uma mensagem deve ser informada ao usuário pelo o motivo do dado não ter sido aceito.
+      \item Caso as informações sejam válidas o usuário deverá ser cadastrado no sistema.
+    \end{itemize}
 
   \subsubsection{História de usuário 13}
     \textbf{Eu} como usuário, \textbf{desejo} editar meu perfil. \textbf{Para que eu possa} atualizar minhas informações
@@ -298,12 +417,34 @@
 
     Dificuldade: 5
 
+    Feature: FEA-07
+
+    Critérios de Aceitação:
+    \begin{itemize}
+      \item Ao entrar na aplicação, e obter êxito ao realizar login em sua conta, deve ser mostrado um quadro com as informações necessárias para gerenciar a conta.
+      \item O usuário então terá a possibilidade de alterar seu telefone, senha ou email. Os critérios de validação desses campos são realizados da seguinte forma: telefone é constituído somente por números, senhas deverão ter um tamanho mínimo de 6 caracteres e o email deverá ser na forma example@example.com.
+      \item Caso algum dado digitado não passe na validação uma mensagem deve ser informada ao usuário pelo o motivo do dado não ter sido aceito.
+      \item Caso as informações sejam válidas as informações do usuário modificadas deverão ser atualizadas no sistema.
+    \end{itemize}
+
   \subsubsection{História de usuário 14}
     \textbf{Eu} como administrador, \textbf{desejo} ser capaz de deletar perfis de usuário. \textbf{Para que eu possa} remover contas de usuário que não trabalham mais na empresa
 
     Prioridade: \textbf{Alta}
 
     Dificuldade: 3
+
+    Feature: FEA-07
+
+    Critérios de Aceitação:
+    \begin{itemize}
+      \item É necessário estar logado com uma conta de administrador. 
+      \item O administrador deverá conseguir deletar qualquer conta que possua um nível de permissão abaixo de administrador.
+      \item Para o administrador deve existir um menu que não aparece para os usuários.
+      \item No menu de administrador, é possível visualizar os usuários. Ao clicar no usuário deve aparecer as opçoẽs de gerência, como deletar.
+      \item Ao clicar em deletar deve aparecer uma janela de confirmação, garantido que um usuário seja deletado por acaso.
+      \item Caso um usuário seja deletado seus projetos continuam como estão.
+    \end{itemize}
 
   \subsubsection{História de usuário 15}
     \textbf{Eu} como administrador, \textbf{desejo} uma ferramenta de log. \textbf{Para que eu possa} acompanhar as atividade dos funcionários
@@ -312,12 +453,31 @@
 
     Dificuldade: 8
 
+    Feature: FEA-07
+
+    Critérios de Aceitação:
+    \begin{itemize}
+      \item É necessário estar logado com uma conta de administrador. 
+      \item Para o administrador deve existir um menu que não aparece para os usuários.
+      \item No menu de administrador, é possível visualizar os usuários. Ao clicar no usuário deve aparecer as opçoẽs de gerência, como acompanhar.
+      \item Acompanhar deve possuir um histórico de navegação do aplicativo, com horas e datas de alteração dos arquivos.
+    \end{itemize}
+
   \subsubsection{História de usuário 16}
     \textbf{Eu} como usuário, \textbf{desejo} visualizar informações da imagem. \textbf{Para que eu possa} ter acesso a imagem específica que tenho interesse
 
     Prioridade: \textbf{Média}
 
     Dificuldade: 3
+
+    Feature: FEA-03
+
+    Critérios de Aceitação:
+    \begin{itemize}
+      \item É necessário estar logado e ter acesso a imagem desejada.
+      \item As informações devem aparecer em uma tela de mensagem. 
+      \item Deve ser informado: nome do arquivo, data de envio, tamanho, histórico de alterações e usuário que podem ter acesso. 
+    \end{itemize}
 
   \subsubsection{História de usuário 17}
     \textbf{Eu} como usuário, \textbf{desejo} visualizar informações do projeto. \textbf{Para que eu possa} ter acesso ao projeto específico que tenho interesse
@@ -326,12 +486,31 @@
 
     Dificuldade: 5
 
+    Feature: FEA-03
+
+    Critérios de Aceitação:
+    \begin{itemize}
+      \item É necessário estar logado e ter acesso ao projeto desejado.
+      \item As informações devem aparecer em uma tela de mensagem. 
+      \item Deve ser informado: nome do projeto, data de envio, tamanho, histórico de alterações e usuário que podem ter acesso.
+    \end{itemize}
+
   \subsubsection{História de usuário 18}
     \textbf{Eu} como usuário, \textbf{desejo} poder criar pastas. \textbf{Para que eu possa} organizar da maneira que desejar meus projetos
 
     Prioridade: \textbf{Média}
 
     Dificuldade: 3
+
+    Feature: FEA-04
+
+    Critérios de Aceitação:
+    \begin{itemize}
+      \item É necessário estar logado.
+      \item Pode ser armazenado na pasta imagens de satélite e projetos ArcGIS.
+      \item Pode ser  armazenado na pasta arquivos: PDF, txt, doc, docx, odt.
+      \item Não pode ser armazenado vídeos. 
+    \end{itemize}
 
   \subsubsection{História de usuário 19}
     \textbf{Eu} como usuário, \textbf{desejo} renomear arquivos. \textbf{Para que eu possa} organizar da maneira que desejar meus projetos
@@ -340,12 +519,75 @@
 
     Dificuldade: 5
 
+    Feature: FEA-04
+
+    Critérios de Aceitação:
+    \begin{itemize}
+      \item É necessário estar logado e ter permissão para fazer essa alteração.
+      \item Não é possível que dois arquivos em uma mesma pasta possuam o mesmo nome.
+      \item O nome não pode passar de 30 caracteres. 
+      \item Não pode ser composto por caracteres especiais e nem pelo carácter  ‘.’
+    \end{itemize}
+
   \subsubsection{História de usuário 20}
     \textbf{Eu} como usuário, \textbf{desejo} mover arquivos. \textbf{Para que eu possa} organizar da maneira que desejar meus projetos
 
     Prioridade: \textbf{Média}
 
     Dificuldade: 5
+
+    Feature: FEA-04
+
+    Critérios de Aceitação:
+    \begin{itemize}
+      \item É necessário estar logado e ter permissão para fazer essa alteração.
+      \item Não é possível que dois arquivos em uma mesma pasta possuam o mesmo nome.
+    \end{itemize}
+
+  \subsubsection{Enabler de história de usuário 1}
+    \textbf{Eu} como usuário, \textbf{desejo} avaliar a interface de imagens de satélite. \textbf{Para que eu possa} garantir saber utilizar a interface.
+
+    Prioridade: \textbf{Alta}
+
+    Dificuldade: 3
+
+    Feature: FEA-01
+
+  \subsubsection{Enabler de história de usuário 2}
+    \textbf{Eu} como usuário, \textbf{desejo} avaliar a interface de projetos ArcGIS. \textbf{Para que eu possa} garantir saber utilizar a interface.
+
+    Prioridade: \textbf{Média}
+
+    Dificuldade: 3
+
+    Feature: FEA-02
+
+  \subsubsection{Enabler de história de usuário 3}
+    \textbf{Eu} como usuário, \textbf{desejo} avaliar a interface do sistema de cadastro. \textbf{Para que eu possa} garantir saber utilizar a interface.
+
+    Prioridade: \textbf{Baixa}
+
+    Dificuldade: 3
+
+    Feature: FEA-07
+
+  \subsubsection{Enabler de história de usuário 4}
+    \textbf{Eu} como administrador, \textbf{desejo} avaliar a interface do sistema de administrar. \textbf{Para que eu possa} garantir saber utilizar a interface.
+
+    Prioridade: \textbf{Alta}
+
+    Dificuldade: 3
+
+    Feature: FEA-07
+
+  \subsubsection{Enabler de história de usuário 5}
+    \textbf{Eu} como desenvolvedor, \textbf{desejo} avaliar o servidor. \textbf{Para que eu possa} garantir que o mesmo supra as necessidades do cliente.
+
+    Prioridade: \textbf{Média}
+
+    Dificuldade: 5
+
+    Feature: FEA-07
 
 \section{Gerência de mudança e Rastreabilidade}
 
